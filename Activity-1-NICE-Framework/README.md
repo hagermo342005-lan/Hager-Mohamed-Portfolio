@@ -1,3 +1,4 @@
+
 # Activity 1: Digital Forensics Workforce Analysis Based on NICE
 
 <p align="center">
@@ -99,7 +100,11 @@ These roles were reviewed but not selected as the three main roles because their
 
 The following visualization summarizes the distribution of the 39 selected KST statements across seven forensic phases and highlights the main findings of the analysis.
 
-![KST Analysis and Evidence Lifecycle](KST-Analysis-Evidence-Lifecycle.png)
+<p align="center">
+  <img src="./KST-Analysis-Evidence-Lifecycle.png"
+       alt="KST Analysis and Evidence Lifecycle"
+       width="100%">
+</p>
 
 **Key Insight:** Acquisition and Preservation account for 41% of the selected statements, highlighting the importance of evidence collection and integrity throughout the digital forensic lifecycle.
 

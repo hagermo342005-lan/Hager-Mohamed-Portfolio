@@ -1,9 +1,10 @@
-
 # Activity 1: Digital Forensics Workforce Analysis Based on NICE
 
 <p align="center">
   <strong>Cybersecurity | Digital Forensics | Workforce Analysis</strong>
 </p>
+
+---
 
 ## Project Overview
 
@@ -39,16 +40,19 @@ The research followed these main stages:
 Three core or closely related work roles were selected:
 
 ### 1. Digital Forensics (PD-WRL-002)
+
 **Category:** Protection and Defense
 
 Focuses on the technical examination of digital evidence, including forensic imaging, file-system analysis, memory examination, data recovery, and forensic reporting.
 
 ### 2. Digital Evidence Analysis (IN-WRL-002)
+
 **Category:** Investigation
 
 Focuses on identifying, collecting, examining, and preserving digital evidence through controlled and documented forensic procedures.
 
 ### 3. Cybercrime Investigation (IN-WRL-001)
+
 **Category:** Investigation
 
 Focuses on investigating cybercrime, identifying elements of proof, collecting evidence, identifying perpetrators, and preparing investigative reports.
@@ -91,16 +95,13 @@ These roles were reviewed but not selected as the three main roles because their
 
 **Key Finding:** Acquisition and Preservation account for 16 of the 39 selected statements (41%). This highlights the importance of evidence collection, preservation, and integrity in digital forensic work.
 
-
 ### KST Analysis Visualization
 
-The following visualization summarizes the distribution of the 39 selected KST statements across seven forensic phases.
+The following visualization summarizes the distribution of the 39 selected KST statements across seven forensic phases and highlights the main findings of the analysis.
 
-<p align="center">
-  <img src="KST-Analysis-Evidence-Lifecycle.png" alt="KST Analysis and Evidence Lifecycle" width="100%">
-</p>
+![KST Analysis and Evidence Lifecycle](KST-Analysis-Evidence-Lifecycle.png)
 
-**Key Insight:** Acquisition and Preservation account for 41% of the selected statements, highlighting the importance of evidence collection and integrity.
+**Key Insight:** Acquisition and Preservation account for 41% of the selected statements, highlighting the importance of evidence collection and integrity throughout the digital forensic lifecycle.
 
 ### 3. Shared Professional Competencies
 
@@ -195,7 +196,7 @@ The main recommendations are:
 Explore the full academic work:
 
 - [Technical Research Report (PDF)](Activity-1-NICE-FrameworkReport.pdf)
-- [Presentation](Presentation/)
+- [Research Presentation](Presentation/)
 - [Supporting Materials](Supporting-Materials/)
 
 The complete report contains the detailed methodology, KST statements, competency matrices, gap analysis tables, conclusions, and references.
@@ -227,14 +228,13 @@ The complete report contains the detailed methodology, KST statements, competenc
 ---
 
 <p align="center">
-  <strong>End of Project Overview</strong><br>
+  <strong>End of Project Overview</strong>
+
   Digital Forensics | Cybersecurity | NICE Workforce Framework
 </p>
 
 ## Project Status
 
-Completed – Academic Research Project
+**Completed – Academic Research Project**
 
-The research report, presentation, KST analysis,
-competency mapping, and gap analysis have been
-documented and organized in this repository.
+The research report, presentation, KST analysis, competency mapping, and gap analysis have been documented and organized in this repository.

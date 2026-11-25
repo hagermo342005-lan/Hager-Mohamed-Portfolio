@@ -1,70 +1,101 @@
-
-
 # Hager Mohamed
-### Cybersecurity | Digital Forensics
+### Cybersecurity Student | Digital Forensics | Security Investigation
 
-Welcome to my Academic Portfolio!
+Final-year Cyber Security student at the Faculty of Artificial Intelligence, Egyptian Russian University (ERU).
 
-I am a final-year Cyber Security student at the Faculty of Artificial Intelligence, Egyptian Russian University (ERU).
-
-This portfolio documents my academic journey, technical skills, practical labs, digital forensic investigations, and cybersecurity projects.
+I am building my technical expertise through academic projects, practical forensic exercises, cybersecurity training, and research-based investigations. My interests include Digital Forensics, Incident Response, Network Security, and Security Analysis.
 
 ---
 
-## About Me
+## Professional Profile
 
-I am interested in Cybersecurity and Digital Forensics, with a focus on digital investigations, network security, incident analysis, and security research.
+I am particularly interested in understanding how digital evidence can support security investigations, how systems and networks can be examined, and how technical findings can be documented accurately.
 
-I am continuously developing my technical knowledge through academic projects, practical exercises, and professional training.
+I value analytical thinking, evidence integrity, continuous learning, and responsible cybersecurity practices.
 
 ## Technical Skills
 
-- **Programming:** Python
-- **Operating Systems:** Linux, Windows
-- **Network Security:** Networking Fundamentals, Wireshark, Nmap
-- **Web Security:** Burp Suite
-- **Digital Forensics:** Autopsy, FTK Imager
-- **Cloud:** AWS Fundamentals
+| Category | Technologies & Tools |
+|---|---|
+| Programming | Python |
+| Operating Systems | Linux, Windows |
+| Network Security | Networking Fundamentals, Wireshark, Nmap |
+| Web Security | Burp Suite |
+| Digital Forensics | Autopsy, FTK Imager, ExifTool |
+| Cloud | AWS Fundamentals |
+| Front-End Development | HTML, CSS, JavaScript, Tailwind CSS |
 
-## Academic Projects
+## Featured Academic Projects
 
-### 1. Digital Forensics Portfolio
-Academic documentation of digital forensic examinations, investigative scenarios, evidence analysis, and research activities.
+### 01 — NICE Framework Analysis
+**Focus:** Digital Forensics Workforce Framework
 
-### 2. NICE Framework Analysis
-Analysis of Digital Forensics work roles, including Knowledge, Skills, Tasks (KST), and competency mapping.
+- Studied Digital Forensics work roles.
+- Analyzed Knowledge, Skills, and Tasks (KST).
+- Explored competency mapping and role requirements.
 
-### 3. Digital Incident Investigation
-Research-based investigation of a digital billboard security incident, focusing on incident information gathering, evidence documentation, and source analysis.
+[Explore Activity 1](./Activity-1-NICE-Framework/)
 
-### 4. Bird Classification Project
-Implementation and evaluation of Perceptron and Adaline machine learning algorithms for bird classification.
+### 02 — Digital Forensics Practical Analysis
+**Focus:** File and Metadata Examination
 
-## Training & Certifications
+- Examined image and video file properties.
+- Used Autopsy and ExifTool.
+- Documented metadata findings and investigation limitations.
 
-- CCNA Training – Cisco Networking Academy
+[Explore Activity 2](./Activity-2-Digital-Forensics/)
+
+### 03 — Digital Billboard Incident Investigation
+**Focus:** Digital Forensics & Cybersecurity Incident Analysis
+
+- Evaluated publicly available incident information.
+- Identified potential digital evidence sources.
+- Developed evidence preservation and chain-of-custody plans.
+- Assessed technical hypotheses and documented evidence gaps.
+
+**Investigation note:** This is a research-based case study using public information. Original system logs and forensic images were not acquired.
+
+[Explore Activity 3](./Activity-3-Advertisement-Investigation/)
+
+
+د
+## Training & Professional Development
+
+- CCNA Training — Cisco Networking Academy
 - AWS Academy Cloud Foundations
 - AWS Academy Cloud Networking
-- Python Programming – Huawei Academy
-- Cybersecurity Training – ICT Hub
+- Python Programming — Huawei Academy
+- Cybersecurity Training — ICT Hub
 - Digital Forensics & Electronic Criminal Evidence Training
 
 ## Areas of Interest
 
 - Digital Forensics
-- Cybersecurity
 - Incident Response
 - Network Security
+- Security Operations (SOC)
 - Digital Evidence Analysis
-- Security Investigation
+- Cybersecurity Research
 
----
+## Academic Background
+
+**Egyptian Russian University (ERU)**  
+Faculty of Artificial Intelligence  
+Department of Cyber Security  
+Final-Year Student | Academic Year 2026–2027
+
+## Professional Principles
+
+- Evidence-based analysis
+- Integrity and accurate documentation
+- Responsible and authorized security practices
+- Continuous technical development
+- Clear communication of findings and limitations
 
 ## Contact
 
-- **GitHub:** [Hager Mohamed](https://github.com/hagermo342005-lan)
+- GitHub: [Hager Mohamed](https://github.com/hagermo342005-lan)
 
 ---
 
-*Thank you for visiting my academic portfolio!*
-
+*Thank you for visiting my academic and technical portfolio.*

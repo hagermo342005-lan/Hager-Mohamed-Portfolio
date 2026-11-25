@@ -1,0 +1,771 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hager Mohamed's Cybersecurity and Digital Forensics Portfolio.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Hager Mohamed | Cybersecurity Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --olive: #737c5b;
+      --olive-dark: #515b3e;
+      --olive-light: #eef0e8;
+      --cream: #f8f8f4;
+      --white: #ffffff;
+      --text: #292d25;
+      --muted: #777b70;
+      --border: #e8e9e2;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--white);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: auto;
+    }
+
+    /* Navigation */
+
+    header {
+      background: rgba(255,255,255,0.95);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+
+    nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--olive-dark);
+      letter-spacing: 1px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 27px;
+      align-items: center;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 600;
+      transition: .3s;
+    }
+
+    .nav-links a:hover {
+      color: var(--olive);
+    }
+
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 25px;
+      color: var(--olive-dark);
+      cursor: pointer;
+    }
+
+    /* Hero */
+
+    .hero {
+      background: linear-gradient(115deg, #f8f9f5, #ffffff 70%);
+      padding: 105px 0 95px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-content {
+      max-width: 760px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      color: var(--olive-dark);
+      background: var(--olive-light);
+      padding: 8px 16px;
+      border-radius: 30px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(48px, 8vw, 78px);
+      line-height: 1.13;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 span {
+      color: var(--olive);
+    }
+
+    .hero h2 {
+      color: var(--olive-dark);
+      font-size: clamp(18px, 3vw, 25px);
+      font-weight: 500;
+      margin-bottom: 22px;
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 16px;
+      max-width: 640px;
+      margin-bottom: 32px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 13px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 25px;
+      border-radius: 7px;
+      font-size: 13px;
+      font-weight: 700;
+      transition: .3s;
+    }
+
+    .btn-primary {
+      background: var(--olive);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--olive-dark);
+      transform: translateY(-3px);
+    }
+
+    .btn-outline {
+      border: 1px solid var(--olive);
+      color: var(--olive-dark);
+    }
+
+    .btn-outline:hover {
+      background: var(--olive-light);
+    }
+
+    /* General Sections */
+
+    section {
+      padding: 85px 0;
+      scroll-margin-top: 75px;
+    }
+
+    .section-label {
+      color: var(--olive);
+      font-size: 11px;
+      letter-spacing: 3px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(32px, 5vw, 43px);
+      margin-bottom: 18px;
+      font-weight: 600;
+    }
+
+    .section-description {
+      color: var(--muted);
+      max-width: 690px;
+      font-size: 15px;
+    }
+
+    /* About */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 55px;
+      align-items: center;
+      margin-top: 35px;
+    }
+
+    .about-text p {
+      color: var(--muted);
+      margin-bottom: 17px;
+      font-size: 15px;
+    }
+
+    .about-card {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      padding: 32px;
+      border-radius: 12px;
+    }
+
+    .about-card h3 {
+      color: var(--olive-dark);
+      font-family: 'Playfair Display', serif;
+      font-size: 23px;
+      margin-bottom: 17px;
+    }
+
+    .about-card p {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 9px 0;
+    }
+
+    /* Skills */
+
+    .skills {
+      background: var(--cream);
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 17px;
+      margin-top: 35px;
+    }
+
+    .skill-card {
+      background: white;
+      padding: 25px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      transition: .3s;
+    }
+
+    .skill-card:hover {
+      border-color: var(--olive);
+      transform: translateY(-5px);
+    }
+
+    .skill-card .number {
+      color: var(--olive);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .skill-card h3 {
+      font-size: 17px;
+      margin: 10px 0;
+    }
+
+    .skill-card p {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* Projects */
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+      margin-top: 35px;
+    }
+
+    .project-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      background: white;
+      transition: .3s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 35px rgba(65,75,45,.08);
+      border-color: #c6cbb8;
+    }
+
+    .project-tag {
+      display: inline-block;
+      background: var(--olive-light);
+      color: var(--olive-dark);
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 10px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      width: fit-content;
+    }
+
+    .project-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 23px;
+      margin-bottom: 12px;
+    }
+
+    .project-card p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .project-link {
+      color: var(--olive-dark);
+      font-size: 13px;
+      font-weight: 700;
+      margin-top: auto;
+    }
+
+    .project-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Training */
+
+    .training {
+      background: var(--cream);
+    }
+
+    .training-list {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .training-item {
+      background: white;
+      border: 1px solid var(--border);
+      padding: 20px;
+      border-radius: 9px;
+      font-size: 14px;
+    }
+
+    .training-item strong {
+      display: block;
+      color: var(--olive-dark);
+      margin-bottom: 4px;
+    }
+
+    .training-item span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    /* Contact */
+
+    .contact-box {
+      margin-top: 30px;
+      padding: 45px;
+      background: var(--olive-light);
+      border-radius: 13px;
+      text-align: center;
+    }
+
+    .contact-box p {
+      color: var(--muted);
+      margin: 15px auto 25px;
+      max-width: 550px;
+      font-size: 14px;
+    }
+
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    /* Footer */
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 25px 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    /* Responsive */
+
+    @media (max-width: 760px) {
+      .menu-toggle {
+        display: block;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 22px 5%;
+        border-bottom: 1px solid var(--border);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 17px;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .hero {
+        padding: 75px 0;
+      }
+
+      .about-grid,
+      .projects-grid,
+      .training-list {
+        grid-template-columns: 1fr;
+      }
+
+      .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      section {
+        padding: 65px 0;
+      }
+
+      .contact-box {
+        padding: 30px 20px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#home" class="logo">HM.</a>
+
+        <button class="menu-toggle" id="menuToggle"
+          aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#training">Training</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <span class="eyebrow">CYBERSECURITY PORTFOLIO</span>
+
+          <h1>Hello, I'm <span>Hager.</span></h1>
+
+          <h2>Cybersecurity Student | Digital Forensics</h2>
+
+          <p>
+            Exploring digital evidence, investigating security incidents,
+            and building practical technical skills through academic projects,
+            hands-on exercises, and continuous learning.
+          </p>
+
+          <div class="buttons">
+            <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-label">ABOUT ME</div>
+        <h2 class="section-title">A little about my journey.</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a final-year student in the Cyber Security Department,
+              Faculty of Artificial Intelligence, Egyptian Russian University.
+            </p>
+
+            <p>
+              My academic journey focuses on cybersecurity, digital
+              forensics, network security, and technical investigation.
+              I enjoy analyzing digital artifacts, understanding security
+              incidents, and documenting findings with accuracy.
+            </p>
+
+            <p>
+              I believe in continuous learning, evidence-based analysis,
+              and developing practical skills through real technical work.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h3>Academic Background</h3>
+            <p><strong>University:</strong> Egyptian Russian University</p>
+            <p><strong>Faculty:</strong> Faculty of Artificial Intelligence</p>
+            <p><strong>Department:</strong> Cyber Security</p>
+            <p><strong>Field:</strong> Digital Forensics & Cybersecurity</p>
+            <p><strong>Academic Year:</strong> 2026–2027</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-label">TECHNICAL EXPERTISE</div>
+        <h2 class="section-title">Skills & Technologies</h2>
+        <p class="section-description">
+          Tools and technologies explored through coursework,
+          training, and academic practice.
+        </p>
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <span class="number">01</span>
+            <h3>Programming</h3>
+            <p>Python, HTML, CSS, JavaScript</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="number">02</span>
+            <h3>Digital Forensics</h3>
+            <p>Autopsy, FTK Imager, ExifTool</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="number">03</span>
+            <h3>Network Security</h3>
+            <p>Wireshark, Nmap, Cisco Networking</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="number">04</span>
+            <h3>Web Security</h3>
+            <p>Burp Suite, Web Application Security Fundamentals</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="number">05</span>
+            <h3>Operating Systems</h3>
+            <p>Linux, Windows, Command Line Fundamentals</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="number">06</span>
+            <h3>Cloud Computing</h3>
+            <p>AWS Academy Cloud Foundations & Networking</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-label">SELECTED WORK</div>
+        <h2 class="section-title">Academic Projects</h2>
+        <p class="section-description">
+          A collection of academic investigations, technical exercises,
+          and research-based projects.
+        </p>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <span class="project-tag">DIGITAL FORENSICS</span>
+            <h3>NICE Framework Analysis</h3>
+            <p>
+              Analysis of Digital Forensics work roles, Knowledge,
+              Skills, Tasks, and cybersecurity workforce competencies.
+            </p>
+            <a class="project-link"
+              href="Activity-1-NICE-Framework/">Explore Activity 01 →</a>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">FORENSIC EXAMINATION</span>
+            <h3>Image & Video Analysis</h3>
+            <p>
+              Practical examination of image and video metadata
+              using Autopsy and ExifTool, with documented findings.
+            </p>
+            <a class="project-link"
+              href="Activity-2-Digital-Forensics/">Explore Activity 02 →</a>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">INCIDENT INVESTIGATION</span>
+            <h3>Digital Billboard Investigation</h3>
+            <p>
+              Research-based investigation of a reported digital
+              billboard incident, including evidence identification,
+              preservation planning, and technical hypotheses.
+            </p>
+            <a class="project-link"
+              href="Activity-3-Advertisement-Investigation/">Explore Activity 03 →</a>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">MACHINE LEARNING</span>
+            <h3>Bird Classification</h3>
+            <p>
+              Academic implementation and comparison of Perceptron
+              and Adaline classification algorithms.
+            </p>
+            <span class="project-link">Project documentation coming soon</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="training" id="training">
+      <div class="container">
+        <div class="section-label">CONTINUOUS LEARNING</div>
+        <h2 class="section-title">Training & Development</h2>
+        <p class="section-description">
+          Selected training programs and academic development activities.
+        </p>
+
+        <div class="training-list">
+
+          <div class="training-item">
+            <strong>CCNA Training</strong>
+            <span>Cisco Networking Academy</span>
+          </div>
+
+          <div class="training-item">
+            <strong>AWS Academy Cloud Foundations</strong>
+            <span>Amazon Web Services Academy</span>
+          </div>
+
+          <div class="training-item">
+            <strong>AWS Academy Cloud Networking</strong>
+            <span>Amazon Web Services Academy</span>
+          </div>
+
+          <div class="training-item">
+            <strong>Python Programming</strong>
+            <span>Huawei Academy</span>
+          </div>
+
+          <div class="training-item">
+            <strong>Cybersecurity Training</strong>
+            <span>ICT Hub</span>
+          </div>
+
+          <div class="training-item">
+            <strong>Digital Forensics & Electronic Criminal Evidence</strong>
+            <span>Egyptian Society for Political Economy, Statistics and Legislation</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-label">LET'S CONNECT</div>
+        <h2 class="section-title">Get in touch.</h2>
+
+        <div class="contact-box">
+          <h3>Interested in cybersecurity and digital forensics?</h3>
+          <p>
+            I welcome opportunities to learn, collaborate,
+            and develop my skills in cybersecurity.
+          </p>
+
+          <div class="contact-links">
+            <a class="btn btn-primary"
+              href="https://github.com/hagermo342005-lan"
+              target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+
+            <a class="btn btn-outline"
+              href="https://github.com/hagermo342005-lan/Hager-Mohamed-Portfolio"
+              target="_blank" rel="noopener noreferrer">Portfolio Repository</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Hager Mohamed · Cybersecurity Portfolio
+      <br>
+      Built with HTML, CSS & JavaScript
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('active');
+      menuToggle.setAttribute('aria-expanded', isOpen);
+      menuToggle.textContent = isOpen ? '✕' : '☰';
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.textContent = '☰';
+      });
+    });
+  </script>
+
+</body>
+</html>

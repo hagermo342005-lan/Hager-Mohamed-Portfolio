@@ -101,7 +101,7 @@ These roles were reviewed but not selected as the three main roles because their
 The following visualization summarizes the distribution of the 39 selected KST statements across seven forensic phases and highlights the main findings of the analysis.
 
 <p align="center">
-  <img src="./.KST-Analysis-Evidence-Lifecycl.png"
+  <img src="./KST-Analysis-Evidence-Lifecycle.png"
        alt="KST Analysis and Evidence Lifecycle"
        width="100%">
 </p>

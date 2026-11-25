@@ -91,6 +91,17 @@ These roles were reviewed but not selected as the three main roles because their
 
 **Key Finding:** Acquisition and Preservation account for 16 of the 39 selected statements (41%). This highlights the importance of evidence collection, preservation, and integrity in digital forensic work.
 
+
+### KST Analysis Visualization
+
+The following visualization summarizes the distribution of the 39 selected KST statements across seven forensic phases.
+
+<p align="center">
+  <img src="KST-Analysis-Evidence-Lifecycle.png" alt="KST Analysis and Evidence Lifecycle" width="100%">
+</p>
+
+**Key Insight:** Acquisition and Preservation account for 41% of the selected statements, highlighting the importance of evidence collection and integrity.
+
 ### 3. Shared Professional Competencies
 
 The analysis identified evidence integrity as a cross-cutting competency shared by all three selected roles.

@@ -184,7 +184,7 @@ The main recommendations are:
 Explore the full academic work:
 
 - [Technical Research Report (PDF)](Activity-1-NICE-FrameworkReport.pdf)
-- [Presentation Folder](Presentation/)
+- [Presentation](Presentation/)
 - [Supporting Materials](Supporting-Materials/)
 
 The complete report contains the detailed methodology, KST statements, competency matrices, gap analysis tables, conclusions, and references.
@@ -219,3 +219,11 @@ The complete report contains the detailed methodology, KST statements, competenc
   <strong>End of Project Overview</strong><br>
   Digital Forensics | Cybersecurity | NICE Workforce Framework
 </p>
+
+## Project Status
+
+Completed – Academic Research Project
+
+The research report, presentation, KST analysis,
+competency mapping, and gap analysis have been
+documented and organized in this repository.

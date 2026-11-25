@@ -54,6 +54,14 @@ The evidence items identified in this activity represent potential sources for i
 - A technical assessment of possible attack scenarios.
 - Forensic findings and recommendations.
 
+## Deliverables
+
+- [View Full Investigation Report](Activity%203%20Digital%20Forensic%20Investigation%20.pdf)
+- [View Investigation Presentation](Activity-3-Investigation-Presentation.pdf)
+
+## Supporting Materials
+
+- [View Incident Billboard Photo](Supporting-Materials/Incident-Billboard-Photo.jpg.webp)
 ## Academic Information
 
 - **University:** Egyptian Russian University (ERU)

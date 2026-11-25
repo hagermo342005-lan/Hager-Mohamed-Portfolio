@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hager Mohamed's Cybersecurity and Digital Forensics Portfolio.">
   <meta name="theme-color" content="#ffffff">
+
   <title>Hager Mohamed | Cybersecurity Portfolio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -477,6 +478,8 @@
 
 <body>
 
+  <!-- Navigation -->
+
   <header>
     <div class="container">
       <nav>
@@ -499,9 +502,12 @@
 
   <main>
 
+    <!-- Hero Section -->
+
     <section class="hero" id="home">
       <div class="container">
         <div class="hero-content">
+
           <span class="eyebrow">CYBERSECURITY PORTFOLIO</span>
 
           <h1>Hello, I'm <span>Hager.</span></h1>
@@ -518,16 +524,21 @@
             <a href="#projects" class="btn btn-primary">Explore My Projects</a>
             <a href="#contact" class="btn btn-outline">Get In Touch</a>
           </div>
+
         </div>
       </div>
     </section>
 
+    <!-- About Section -->
+
     <section id="about">
       <div class="container">
+
         <div class="section-label">ABOUT ME</div>
         <h2 class="section-title">A little about my journey.</h2>
 
         <div class="about-grid">
+
           <div class="about-text">
             <p>
               I am a final-year student in the Cyber Security Department,
@@ -555,14 +566,19 @@
             <p><strong>Field:</strong> Digital Forensics & Cybersecurity</p>
             <p><strong>Academic Year:</strong> 2026–2027</p>
           </div>
+
         </div>
       </div>
     </section>
 
+    <!-- Skills Section -->
+
     <section class="skills" id="skills">
       <div class="container">
+
         <div class="section-label">TECHNICAL EXPERTISE</div>
         <h2 class="section-title">Skills & Technologies</h2>
+
         <p class="section-description">
           Tools and technologies explored through coursework,
           training, and academic practice.
@@ -610,10 +626,14 @@
       </div>
     </section>
 
+    <!-- Projects Section -->
+
     <section id="projects">
       <div class="container">
+
         <div class="section-label">SELECTED WORK</div>
         <h2 class="section-title">Academic Projects</h2>
+
         <p class="section-description">
           A collection of academic investigations, technical exercises,
           and research-based projects.
@@ -623,56 +643,65 @@
 
           <article class="project-card">
             <span class="project-tag">DIGITAL FORENSICS</span>
+
             <h3>NICE Framework Analysis</h3>
+
             <p>
               Analysis of Digital Forensics work roles, Knowledge,
               Skills, Tasks, and cybersecurity workforce competencies.
             </p>
+
             <a class="project-link"
-              href="Activity-1-NICE-Framework/">Explore Activity 01 →</a>
+              href="Activity-1-NICE-Framework/">
+              Explore Activity 01 →
+            </a>
           </article>
 
           <article class="project-card">
             <span class="project-tag">FORENSIC EXAMINATION</span>
+
             <h3>Image & Video Analysis</h3>
+
             <p>
               Practical examination of image and video metadata
               using Autopsy and ExifTool, with documented findings.
             </p>
+
             <a class="project-link"
-              href="Activity-2-Digital-Forensics/">Explore Activity 02 →</a>
+              href="Activity-2-Digital-Forensics/">
+              Explore Activity 02 →
+            </a>
           </article>
 
           <article class="project-card">
             <span class="project-tag">INCIDENT INVESTIGATION</span>
+
             <h3>Digital Billboard Investigation</h3>
+
             <p>
               Research-based investigation of a reported digital
               billboard incident, including evidence identification,
               preservation planning, and technical hypotheses.
             </p>
-            <a class="project-link"
-              href="Activity-3-Advertisement-Investigation/">Explore Activity 03 →</a>
-          </article>
 
-          <article class="project-card">
-            <span class="project-tag">MACHINE LEARNING</span>
-            <h3>Bird Classification</h3>
-            <p>
-              Academic implementation and comparison of Perceptron
-              and Adaline classification algorithms.
-            </p>
-            <span class="project-link">Project documentation coming soon</span>
+            <a class="project-link"
+              href="Activity-3-Advertisement-Investigation/">
+              Explore Activity 03 →
+            </a>
           </article>
 
         </div>
       </div>
     </section>
 
+    <!-- Training Section -->
+
     <section class="training" id="training">
       <div class="container">
+
         <div class="section-label">CONTINUOUS LEARNING</div>
         <h2 class="section-title">Training & Development</h2>
+
         <p class="section-description">
           Selected training programs and academic development activities.
         </p>
@@ -713,32 +742,45 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
+
     <section id="contact">
       <div class="container">
+
         <div class="section-label">LET'S CONNECT</div>
         <h2 class="section-title">Get in touch.</h2>
 
         <div class="contact-box">
+
           <h3>Interested in cybersecurity and digital forensics?</h3>
+
           <p>
             I welcome opportunities to learn, collaborate,
             and develop my skills in cybersecurity.
           </p>
 
           <div class="contact-links">
+
             <a class="btn btn-primary"
               href="https://github.com/hagermo342005-lan"
-              target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+              target="_blank" rel="noopener noreferrer">
+              GitHub Profile
+            </a>
 
             <a class="btn btn-outline"
               href="https://github.com/hagermo342005-lan/Hager-Mohamed-Portfolio"
-              target="_blank" rel="noopener noreferrer">Portfolio Repository</a>
+              target="_blank" rel="noopener noreferrer">
+              Portfolio Repository
+            </a>
+
           </div>
         </div>
       </div>
     </section>
 
   </main>
+
+  <!-- Footer -->
 
   <footer>
     <div class="container">
@@ -748,12 +790,15 @@
     </div>
   </footer>
 
+  <!-- JavaScript -->
+
   <script>
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
 
     menuToggle.addEventListener('click', () => {
       const isOpen = navLinks.classList.toggle('active');
+
       menuToggle.setAttribute('aria-expanded', isOpen);
       menuToggle.textContent = isOpen ? '✕' : '☰';
     });

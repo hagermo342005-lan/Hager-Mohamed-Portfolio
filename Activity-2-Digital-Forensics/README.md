@@ -1,117 +1,98 @@
 # Activity 2: Digital Forensics Practical Analysis
 
-**Digital Forensics | Evidence Examination | Metadata Analysis**
+**Digital Forensics | Metadata Analysis | Evidence Examination**
 
-## Project Overview
+## Overview
 
-This activity presents practical digital forensic examinations focused on analyzing digital files, extracting metadata, and understanding the characteristics of computer-generated evidence.
+This activity focuses on practical digital forensic examination of video and image files using **ExifTool** and **Autopsy**.
 
-The activity consists of two practical exercises that demonstrate the use of digital forensic tools and techniques to examine different types of digital files.
+It consists of two experiments demonstrating metadata extraction, file examination, and digital evidence analysis.
 
-## Activity Objectives
+## Objectives
 
-The main objectives of this activity are:
+- Extract and analyze digital file metadata.
+- Examine video and image file properties.
+- Understand the role of forensic tools in evidence examination.
+- Document technical findings and observations.
 
-- Understand the principles of digital forensic examination.
-- Analyze digital files and extract metadata.
-- Identify relevant file properties and technical information.
-- Use forensic tools to examine digital evidence.
-- Understand how digital evidence can be documented and analyzed.
-- Develop practical skills in digital forensic investigations.
+## Practical Experiments
 
-## Practical Exercises
+### 1. Video File Analysis
 
-### 1. Digital Forensic Analysis of a Video File
+**Objective:** Examine an MP4 video file and investigate its technical metadata.
 
-This exercise focuses on the forensic examination of a video file.
+**Tools:** ExifTool, Autopsy.
 
-**Main Activities:**
-- Examining an MP4 video file.
-- Extracting video metadata using ExifTool.
-- Identifying technical properties of the video.
-- Examining the file using Autopsy.
-- Reviewing relevant forensic information.
+**Main Procedures:**
+- Identify the video file properties.
+- Extract metadata using ExifTool.
+- Examine the video within Autopsy.
+- Review and document the available forensic information.
 
-**Tools Used:**
-- ExifTool
-- Autopsy
+**Report:** [View Full Video File Analysis Report](Video-File-Analysis.pdf)
 
-**Report:** `video-File-Analysis.pdf`
+### 2. Picture File Analysis – Computer-Created Files
 
-### 2. Computer-Created Files (Picture File Analysis)
+**Objective:** Examine computer-created files with a focus on JPEG image metadata and file analysis.
 
-This exercise focuses on understanding computer-created files and examining image-based digital evidence.
+**Tools:** ExifTool, Autopsy.
 
-**Main Activities:**
-- Understanding different types of computer-created files.
-- Examining a JPEG image.
-- Extracting image metadata using ExifTool.
-- Identifying file properties and technical information.
-- Examining files and folders using Autopsy.
-- Documenting the forensic examination results.
+**Main Procedures:**
+- Identify JPEG file properties.
+- Extract image metadata using ExifTool.
+- Examine files and folders using Autopsy.
+- Document the forensic observations.
 
-**Tools Used:**
-- ExifTool
-- Autopsy
-
-**Report:** `Picture-File-Analysis.pdf`
+**Report:** [View Full Picture File Analysis Report](Picture-File-Analysis.pdf)
 
 ## Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
-| ExifTool | Metadata extraction and file information analysis |
-| Autopsy | Digital forensic examination and evidence analysis |
-| MP4 | Video file format examined |
-| JPEG | Image file format examined |
+| ExifTool | Metadata extraction |
+| Autopsy | Digital forensic examination |
+| MP4 | Video file format |
+| JPEG | Image file format |
 
-## Methodology
+## Results Summary
 
-The practical exercises follow a structured forensic examination approach:
+The practical exercises demonstrate the following:
 
-1. Identify the digital evidence.
-2. Examine the file properties.
-3. Extract and review metadata.
-4. Perform forensic examination using appropriate tools.
-5. Analyze the collected information.
-6. Document the findings and results.
-
-## Key Learning Outcomes
-
-Through these practical exercises, the activity demonstrates:
-
-- Practical experience with digital forensic tools.
-- Understanding of video and image metadata.
-- Knowledge of digital file properties and structures.
-- Familiarity with forensic examination procedures.
-- Improved ability to document and interpret digital evidence.
-
-## Project Deliverables
-
-| Deliverable | Description |
+| Experiment | Main Outcome |
 |---|---|
-| Video File Analysis Report | Practical forensic examination of a video file |
-| Picture File Analysis Report | Examination of computer-created image files |
-| Technical Analysis | Metadata extraction and file examination |
-| Forensic Documentation | Documented procedures and findings |
+| Video Analysis | Examined video properties and extracted available metadata |
+| Picture Analysis | Examined JPEG properties and extracted image metadata |
+| Autopsy Examination | Practiced forensic examination of digital files and folders |
 
-## References & Tools
+**Key Finding:** Metadata analysis provides useful technical information about digital files, while forensic examination tools help organize and investigate digital evidence.
 
-- ExifTool Official Documentation: https://exiftool.org/
-- Autopsy Digital Forensics Platform: https://www.autopsy.com/
-- National Institute of Standards and Technology (NIST): https://www.nist.gov/
+*For the complete technical findings, examination details, and supporting evidence, refer to the full reports above.*
+
+## Skills Gained
+
+- Digital Metadata Analysis
+- Video and Image Forensics
+- File System Examination
+- Autopsy Investigation
+- Evidence Documentation
+- Practical Use of Forensic Tools
+
+## References
+
+- [ExifTool Official Documentation](https://exiftool.org/)
+- [Autopsy Digital Forensics](https://www.autopsy.com/)
+- [NIST](https://www.nist.gov/)
 
 ## Academic Information
 
-- **Course:** Digital Forensics
 - **University:** Egyptian Russian University (ERU)
 - **Faculty:** Faculty of Artificial Intelligence
 - **Department:** Cyber Security
+- **Course:** Digital Forensics
 - **Academic Year:** 2026
-- **Activity:** Activity 2 – Digital Forensics Practical Analysis
 
 ---
 
-**Project Status:** Completed – Practical Academic Exercises
+**Activity Status:** Completed
 
-**Digital Forensics | Cybersecurity | Evidence Analysis**
+*Digital Forensics | Cybersecurity | Practical Investigation*

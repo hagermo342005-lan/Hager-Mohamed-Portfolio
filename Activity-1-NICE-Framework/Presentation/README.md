@@ -6,8 +6,7 @@ This folder contains the presentation prepared for the Digital Forensics Workfor
 
 ## View Presentation
 
-[**View Digital Forensics Workforce Analysis Presentation (PDF)**](Digital%20Forensics%20Workforce%20Analysis%20Presentation.pdf)
-
+[View Presentation (PDF)](https://github.com/hagermo342005-lan/Hager-Mohamed-Portfolio/blob/main/Activity-1-NICE-Framework/Presentation/Digital%20Forensics%20Workforce%20Analysis%20Presentation.pdf)
 ## Presentation Topics
 
 - Introduction to Digital Forensics Workforce
